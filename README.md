@@ -1,4 +1,4 @@
-# TORGNIX
+# TORGINX AUTO HIDDEN SERVICE
 #
 Video Demo Both with MobaXterm and With iPhone (lol) To Show How Much It Simplifies The Setup.
 #
