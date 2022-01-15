@@ -38,3 +38,12 @@ chmod +x install.sh
 #
 #
 One line command to execute --> git clone https://github.com/systemkeyy/torgix && cd torgix && chmod +x install.sh && ./install.sh
+#
+#
+TO DO:
+#
+ADD MKP224O
+#
+FETCH MORE CONFIGS ON SETUP THAT FITS MORE USAGE
+#
++++
