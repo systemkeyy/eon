@@ -1,11 +1,16 @@
-# TORGIX
+# TORGNIX
+
+Video Demo Both with MobaXterm and With iPhone (lol) To Show How Much It Simplifies The Setup.
+MobaXterm - https://www.youtube.com/watch?v=US3KHONqER0
+iPhone Terminux - https://www.youtube.com/watch?v=R71e-rfbNoc
+
 
 Downloads everything needed to host an onion hidden service through nginx, and also possibility to reverse proxy between different servers for an extra security layer.
 #
 #
 SETUP
 --------------------------
-#!!RUN AS ROOT!!#
+RUN AS ROOT!
 #
 #
 sudo su
