@@ -1,5 +1,5 @@
 systemctl stop tor && service tor stop && systemctl stop nginx && service nginx stop && systemctl stop apache2 && systemctl disable apache2 && service apache2 stop && apt remove apache2 -y &&
-sudo apt autoremove -y &&
+apt autoremove -y &&
 sleep 1 &&
 `echo "HiddenServiceDir /var/lib/tor/hs1/
 HiddenServicePort 80 127.0.0.1:80
