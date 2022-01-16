@@ -12,10 +12,8 @@
 
 [Demo of script running in Terminux on iPhone just for the lols, on Ubuntu 20.04 Template](https://www.youtube.com/watch?v=R71e-rfbNoc).
 
-
-# TORGINX
-
-**_MOST LIKELY THE MOST USER FRIENDLY ONION BASH SCRIPT_**
+#
+#
 
 ## SETUP
 
