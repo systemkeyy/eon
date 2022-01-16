@@ -1,49 +1,80 @@
-# TORGINX AUTO HIDDEN SERVICE
-#
-Video Demo Both with MobaXterm and With iPhone (lol) To Show How Much It Simplifies The Setup.
-#
-MobaXterm - https://www.youtube.com/watch?v=US3KHONqER0
-#
-#
-iPhone Terminux - https://www.youtube.com/watch?v=R71e-rfbNoc
-#
-#
-Downloads everything needed to host an onion hidden service through nginx, and also possibility to reverse proxy between different servers for an extra security layer.
-#
-#
-SETUP
---------------------------
-RUN AS ROOT!
-#
-#
+
+```___  _  _  ___  ____  ____  __  __  _  _  ____  _  _  _  _ 
+/ __)( \/ )/ __)(_  _)( ___)(  \/  )( )/ )( ___)( \/ )( \/ )
+\__ \ \  / \__ \  )(   )__)  )    (  )  (  )__)  \  /  \  / 
+(___/ (__) (___/ (__) (____)(_/\/\_)(_)\_)(____) (__)  (__) 
+ ____  _____  ____   ___  ____  _  _  _  _                  
+(_  _)(  _  )(  _ \ / __)(_  _)( \( )( \/ )                 
+  )(   )(_)(  )   /( (_-. _)(_  )  (  )  (                  
+ (__) (_____)(_)\_) \___/(____)(_)\_)(_/\_)``
+```
+
+
+
+
+
+[My own onion service where i publish current projects](http://hkhr6pxk54yz4mqnqawhhzrluwrgssej3fbtojicy6blajonerqnsdyd.onion/).
+
+**TESTED ONLY WITH UBUNTU 20.04**
+
+[Demo of script running in MobaXterm on Ubuntu 20.04 Template](https://www.youtube.com/watch?v=US3KHONqER0).
+
+[Demo of script running in Terminux on iPhone just for the lols, on Ubuntu 20.04 Template](https://www.youtube.com/watch?v=R71e-rfbNoc).
+
+
+# TORGINX
+
+**_MOST LIKELY THE MOST USER FRIENDLY ONION BASH SCRIPT_**
+
+## SETUP
+
+> Rent an Ubuntu 20.04 VPS and access it with ROOT !IMPORTANT!. 
+>
+>Then follow step by step from here.
+
+### INSTALLATION AND USAGE
+
+```
 sudo su
-#
-#
-sudo apt update && sudo apt upgrade -yy ( Script does this, but i usually always do this as a standard in new servers).
-#
-#
-sudo apt install git
-#
-#
-git clone https://github.com/systemkeyy/torgix
-#
-#
-cd torgix
-#
-#
+```
+
+```
+sudu apt install git -y
+```
+```
+git clone https://github.com/systemkeyy/torginx
+```
+```
+cd torginx
+```
+```
 chmod +x install.sh
-#
-#
+```
+```
 ./install.sh
-#
-#
-One line command to execute --> git clone https://github.com/systemkeyy/torgix && cd torgix && chmod +x install.sh && ./install.sh
-#
-#
-TO DO:
-#
-ADD MKP224O
-#
-FETCH MORE CONFIGS ON SETUP THAT FITS MORE USAGE
-#
-+++
+```
+
+**Optionally, you can go along and throw all the mentioned commands in one go. I would recommend paying attention on the first commands listed here.**
+
+```
+sudo apt install git && git clone https://github.com/systemkeyy/torginx && sleep 2 && cd torginx && chmod +x install.sh && ./install.sh
+```
+
+### SYSTEMKeyy
+
+![KingSYSTEMKEYY](https://avatars.githubusercontent.com/u/74800251?v=4)
+
+## TODO
+
+```js
+// ADD SUPPORT FOR MKP224o.
+// ADD MORE CONFIGS.
+// MERGE WITH OTHER WEB SETUPS.
+```
+```js
+// CONTACT AND PARTICIPATION
+// Discord: systemkeyy#0076
+// Discord Server: https://discord.gg/fFqJxxrMgD
+// Telegram: @systemkeyy
+// Email: systemkeyy@protonmail.com
+```
