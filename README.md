@@ -51,31 +51,14 @@ sudo apt install git && git clone https://github.com/systemkeyy/torginx && sleep
 ```
 --------------------------------------------------------------------------------------------------
 
-**_DEBIAN_**
-
-```
-apt install git -y
-```
-```
-git clone https://github.com/systemkeyy/nginx-hidden-onion
-```
-```
-cd nginx-hidden-onion
-```
-```
-chmod +x debian-install.sh
-```
-```
-./debian-install.sh
-```
-
 ![KingSYSTEMKEYY](https://avatars.githubusercontent.com/u/74800251?v=4)
 
 **_SYSTEMKeyy_**
 
 ## TODO
 
-```// ADD SUPPORT FOR 
+```js
+// ADD SUPPORT FOR DEBIAN.
 // ADD MORE CONFIGS.
 // MERGE WITH OTHER WEB SETUPS.
 ```
