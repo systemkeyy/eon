@@ -1,19 +1,10 @@
+# TORGINX
 
-```___  _  _  ___  ____  ____  __  __  _  _  ____  _  _  _  _ 
-/ __)( \/ )/ __)(_  _)( ___)(  \/  )( )/ )( ___)( \/ )( \/ )
-\__ \ \  / \__ \  )(   )__)  )    (  )  (  )__)  \  /  \  / 
-(___/ (__) (___/ (__) (____)(_/\/\_)(_)\_)(____) (__)  (__) 
- ____  _____  ____   ___  ____  _  _  _  _                  
-(_  _)(  _  )(  _ \ / __)(_  _)( \( )( \/ )                 
-  )(   )(_)(  )   /( (_-. _)(_  )  (  )  (                  
- (__) (_____)(_)\_) \___/(____)(_)\_)(_/\_)``
-```
-
-
-
+**_MOST LIKELY THE MOST USER FRIENDLY ONION BASH SCRIPT_**
 
 
 [My own onion service where i publish current projects](http://hkhr6pxk54yz4mqnqawhhzrluwrgssej3fbtojicy6blajonerqnsdyd.onion/).
+
 
 **TESTED ONLY WITH UBUNTU 20.04**
 
@@ -60,9 +51,9 @@ chmod +x install.sh
 sudo apt install git && git clone https://github.com/systemkeyy/torginx && sleep 2 && cd torginx && chmod +x install.sh && ./install.sh
 ```
 
-### SYSTEMKeyy
-
 ![KingSYSTEMKEYY](https://avatars.githubusercontent.com/u/74800251?v=4)
+
+**_SYSTEMKeyy_**
 
 ## TODO
 
