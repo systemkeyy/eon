@@ -91,6 +91,7 @@ sleep 2 &&
 cd mkp224o &&
 ./autogen.sh &&
 ./configure make &&
+cd .. &&
 sleep 2 && 
 clear &&
 echo 'SUCCESS! - RUN MKP224O WHEN THE SCRIPT IS FINISHED BY PUSHING INPUT ./mkp224o -p -d /var/lib/tor/onions!' &&
