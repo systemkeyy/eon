@@ -1,37 +1,82 @@
-## Welcome to GitHub Pages
+---
+layout: default
+---
+``` ___  _  _  ___  ____  ____  __  __  _  _  ____  _  _  _  _ 
+/ __)( \/ )/ __)(_  _)( ___)(  \/  )( )/ )( ___)( \/ )( \/ )
+\__ \ \  / \__ \  )(   )__)  )    (  )  (  )__)  \  /  \  / 
+(___/ (__) (___/ (__) (____)(_/\/\_)(_)\_)(____) (__)  (__) 
+ ____  _____  ____   ___  ____  _  _  _  _                  
+(_  _)(  _  )(  _ \ / __)(_  _)( \( )( \/ )                 
+  )(   )(_)(  )   /( (_-. _)(_  )  (  )  (                  
+ (__) (_____)(_)\_) \___/(____)(_)\_)(_/\_)`
 
-You can use the [editor on GitHub](https://github.com/systemkeyy/torginx/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/systemkeyy/torginx/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+[My own onion service where i publish current projects](http://hkhr6pxk54yz4mqnqawhhzrluwrgssej3fbtojicy6blajonerqnsdyd.onion/).
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+**TESTED ONLY WITH UBUNTU 20.04**
+
+[Demo of script running in MobaXterm on Ubuntu 20.04 Template](https://www.youtube.com/watch?v=US3KHONqER0).
+
+[Demo of script running in Terminux on iPhone just for the lols, on Ubuntu 20.04 Template](https://www.youtube.com/watch?v=R71e-rfbNoc).
+
+
+# TORGINX
+
+**_MOST LIKELY THE MOST USER FRIENDLY ONION BASH SCRIPT_**
+
+## SETUP
+
+> Rent an Ubuntu 20.04 VPS and access it with ROOT !IMPORTANT!. 
+>
+>Then follow step by step from here.
+
+### INSTALLATION AND USAGE
+
+```
+sudo su
+```
+
+```
+sudu apt install git -y
+```
+```
+git clone https://github.com/systemkeyy/torginx
+```
+```
+cd torginx
+```
+```
+chmod +x install.sh
+```
+```
+./install.sh
+```
+
+**Optionally, you can go along and throw all the mentioned commands in one go. I would recommend paying attention on the first commands listed here.**
+
+```
+sudo apt install git && git clone https://github.com/systemkeyy/torginx && sleep 2 && cd torginx && chmod +x install.sh && ./install.sh
+```
+
+### SYSTEMKeyy
+
+![KingSYSTEMKEYY](https://avatars.githubusercontent.com/u/74800251?v=4)
+
+## TODO
+
+```js
+// ADD SUPPORT FOR MKP224o.
+// ADD MORE CONFIGS.
+// MERGE WITH OTHER WEB SETUPS.
+```
+```js
+// CONTACT AND PARTICIPATION
+// Discord: systemkeyy#0076
+// Discord Server: https://discord.gg/fFqJxxrMgD
+// Telegram: @systemkeyy
+// Email: systemkeyy@protonmail.com
+```
