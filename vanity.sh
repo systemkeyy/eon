@@ -78,7 +78,7 @@ sleep 2 &&
 read -p "We need to check for missing files and clone into a reseptory, do you comply? <yes/no> " prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
 then
- sudo apt gcc make build-essential autoconf libtool libsodium-dev -yy;
+ apt gcc make build-essential autoconf libtool libsodium-dev -yy;
  else
     echo "We failed somewhere, please check logs"
 fi
