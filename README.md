@@ -32,10 +32,10 @@ sudo su
 sudu apt install git -y
 ```
 ```
-git clone https://github.com/systemkeyy/torginx
+git clone https://github.com/systemkeyy/nginx-hidden.onion
 ```
 ```
-cd torginx
+cd nginx-hidden.onion
 ```
 ```
 chmod +x install.sh
