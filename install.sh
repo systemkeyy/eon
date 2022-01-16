@@ -83,6 +83,18 @@ sleep 2 &&
 echo 'SUCCESS! - SOFTWARE IS NOW INSTALLED - WE WILL NOW CONFIGURE CONFIG FILES!' &&
 sleep 4
 clear &&
+chmod +x vanity.sh &&
+./vanity.sh &&
+sleep 2 &&
+git clone https://github.com/cathugger/mkp224o && 
+sleep 2 &&
+cd mkp224o &&
+./autogen.sh &&
+./configure make &&
+sleep 2 && 
+clear &&
+echo 'SUCCESS! - RUN MKP224O WHEN THE SCRIPT IS FINISHED BY PUSHING INPUT ./mkp224o -p -d /var/lib/tor/onions!' &&
+sleep 5
 chmod +x config.sh &&
 ./config.sh &&
 sleep 2 &&
