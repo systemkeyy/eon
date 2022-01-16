@@ -78,7 +78,7 @@ sleep 2 &&
 read -p "DO YOU WISH TO INSTALL NGINX, TOR, PHP, GCC, MAKE, WGET, BUILD-ESSENTIAL. AUTOCONF? <Yes/No> " prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
 then
- sudo apt install nginx tor php php-fpm php-gd php-json php-mbstring mysql-server gcc make build-essential autoconf libsodium-dev -yy;
+apt install nginx tor php php-fpm php-gd php-json php-mbstring mysql-server gcc make build-essential autoconf libsodium-dev -yy;
  else
     echo "We failed somewhere, please check logs"
 fi
