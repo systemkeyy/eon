@@ -6,7 +6,7 @@
 [My own onion service where i publish current projects](http://hkhr6pxk54yz4mqnqawhhzrluwrgssej3fbtojicy6blajonerqnsdyd.onion/).
 
 
-**TESTED ONLY WITH UBUNTU 20.04**
+**TESTED ONLY WITH UBUNTU 20.04, CURRENTLY NOT WORKING WITH DEBIAN**
 
 [Demo of script running in MobaXterm on Ubuntu 20.04 Template](https://www.youtube.com/watch?v=US3KHONqER0).
 
