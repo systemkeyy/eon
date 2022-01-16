@@ -23,6 +23,7 @@
 
 ### INSTALLATION AND USAGE
 
+**_UBUNTU_**
 ```
 sudo su
 ```
@@ -48,6 +49,25 @@ chmod +x install.sh
 ```
 sudo apt install git && git clone https://github.com/systemkeyy/torginx && sleep 2 && cd torginx && chmod +x install.sh && ./install.sh
 ```
+--------------------------------------------------------------------------------------------------
+
+**_DEBIAN_**
+
+```
+apt install git -y
+```
+```
+git clone https://github.com/systemkeyy/nginx-hidden-onion
+```
+```
+cd nginx-hidden-onion
+```
+```
+chmod +x debian-install.sh
+```
+```
+./debian-install.sh
+```
 
 ![KingSYSTEMKEYY](https://avatars.githubusercontent.com/u/74800251?v=4)
 
@@ -55,15 +75,24 @@ sudo apt install git && git clone https://github.com/systemkeyy/torginx && sleep
 
 ## TODO
 
-```js
-// ADD SUPPORT FOR MKP224o.
+```// ADD SUPPORT FOR 
 // ADD MORE CONFIGS.
 // MERGE WITH OTHER WEB SETUPS.
 ```
+----------------------------------------------------
+
+
+-----------------------------------------------------
 ```js
 // CONTACT AND PARTICIPATION
 // Discord: systemkeyy#0076
 // Discord Server: https://discord.gg/fFqJxxrMgD
 // Telegram: @systemkeyy
 // Email: systemkeyy@protonmail.com
+```
+
+## Recently Added;
+
+```
+MKP224O SUPPORT [x]
 ```
