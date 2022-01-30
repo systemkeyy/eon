@@ -32,10 +32,10 @@ sudo su
 sudu apt install git -y
 ```
 ```
-git clone https://github.com/systemkeyy/nginx-hidden.onion
+git clone https://github.com/systemkeyy/auto_onion
 ```
 ```
-cd nginx-hidden.onion
+cd auto_onion
 ```
 ```
 chmod +x install.sh
@@ -47,7 +47,7 @@ chmod +x install.sh
 **Optionally, you can go along and throw all the mentioned commands in one go. I would recommend paying attention on the first commands listed here.**
 
 ```
-sudo apt install git && git clone https://github.com/systemkeyy/nginx-hidden-onion && sleep 2 && cd nginx-hidden-onion && chmod +x install.sh && ./install.sh
+sudo apt install git && git clone https://github.com/systemkeyy/auto_onion && sleep 2 && cd nginx-hidden-onion && chmod +x install.sh && ./install.sh
 ```
 --------------------------------------------------------------------------------------------------
 
