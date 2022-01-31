@@ -1,13 +1,5 @@
 systemctl stop tor && service tor stop && systemctl stop nginx && service nginx stop && systemctl stop apache2 && systemctl disable apache2 && service apache2 stop && apt remove apache2 -y &&
 apt autoremove -y &&
-sleep 1 &&
-`echo "HiddenServiceDir /var/lib/tor/hs1/
-HiddenServicePort 80 127.0.0.1:80
-
-HiddenServiceDir /var/lib/tor/hs2/
-HiddenServicePort 80 127.0.0.1:80
-HiddenServicePort 22 127.0.0.1:22
-" > /etc/tor/torrc`;
 sleep 3 &&
 systemctl start tor && systemctl reload tor && service tor start && service tor restart &&
 sleep 2 &&
@@ -54,8 +46,65 @@ echo -ne '>>>>>>>>>>>>>>>>>>>>>   [100%]\r.'
 sleep 2
 echo -e $'\e[1;91m[\e[0m\e[1;77m+\e[0m\e[1;91m]\e[1;32m' CONFIG FILE FOR /etc/nginx/conf.d/onion.conf and /etc/nginx/sites-available/onion.conf IS SAVED IN EXAMPLES FOLDER'\033[0m' 
 sleep 3 &&
-wget https://github.com/systemkeyy/nginx_tor/blob/main/default > examples.nginx1 && wget https://github.com/systemkeyy/nginx_tor/blob/main/nginx.proxy > examples.nginx2 &&
+mkdir examples &&
+touch examples/torrc &&
+touch examples/nginx &&
+`echo "limit_req_zone  $binary_remote_addr  zone=one:10m   rate=1r/s;
+server {
+  listen 8080;
+  #listen 443 ssl http2;
+   # listen [::]:443 ssl http2;
+  server_name    aa;
+  access_log /dev/null;
+  error_log /var/log/nginx/tomcat-error.loG;
+
+client_max_body_size 200M;
+
+ #   ssl        on;
+  #  ssl_certificate         /etc/ssl/cert.pem;
+   # ssl_certificate_key     /etc/ssl/key.pem;
+
+  location / {
+
+
+        limit_req zone=one burst=1;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+
+        proxy_pass http://89.:8080/;
+  }
+}" > examples/nginx &&
 sleep 3 &&
+`echo "limit_req_zone  $binary_remote_addr  zone=one:10m   rate=1r/s;
+server {
+  listen 8080;
+  #listen 443 ssl http2;
+   # listen [::]:443 ssl http2;
+  server_name    aa;
+  access_log /dev/null;
+  error_log /var/log/nginx/tomcat-error.loG;
+
+client_max_body_size 200M;
+
+ #   ssl        on;
+  #  ssl_certificate         /etc/ssl/cert.pem;
+   # ssl_certificate_key     /etc/ssl/key.pem;
+
+  location / {
+
+
+        limit_req zone=one burst=1;
+        proxy_set_header X-Forwarded-Host $host;
+        proxy_set_header X-Forwarded-Server $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+
+        proxy_pass http://89.:8080/;
+  }
+}" > examples/nginx &&
+
 echo -e $'\e[1;91m[\e[0m\e[1;77m+\e[0m\e[1;91m]\e[1;32m'EVERYTHING IS WORKING - ESTABLISHING TOR CONNECTION AND FETCHING TORRC EXAMPLE CONFIGS'.';
 echo -ne '>                       [5%]\r'
 sleep 0.1
