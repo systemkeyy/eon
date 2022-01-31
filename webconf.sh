@@ -75,7 +75,32 @@ echo -ne '>>>>>>>>>>>>>>>>>>>     [95%]\r'
 sleep 0.1
 echo -ne '>>>>>>>>>>>>>>>>>>>>>   [100%]\r.'
 sleep 2 &&
-read -p "DO YOU WISH TO INSTALL NGINX, TOR, PHP, GCC, MAKE, WGET, BUILD-ESSENTIAL. AUTOCONF? <Yes/No> " prompt
+clear &&
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+echo ""
+read -p "Install software? Yes/No " prompt
 if [[ $prompt == "y" || $prompt == "Y" || $prompt == "yes" || $prompt == "Yes" ]]
 then
 apt install nginx tor php php-fpm php-gd php-json php-mbstring mysql-server gcc make build-essential autoconf libsodium-dev -yy;
