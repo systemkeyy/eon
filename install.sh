@@ -90,12 +90,13 @@ git clone https://github.com/cathugger/mkp224o &&
 sleep 2 &&
 cd mkp224o &&
 ./autogen.sh &&
-./configure make &&
+sleep 15 &&
+./configure make && make &&
 cd .. &&
 sleep 2 && 
 clear &&
-echo 'SUCCESS! - RUN MKP224O WHEN THE SCRIPT IS FINISHED BY PUSHING INPUT ./mkp224o -p -d /var/lib/tor/onions!' &&
-sleep 5
+echo 'MKP224o Compiled! Usage: ./mkp224o -p -d /var/lib/tor/onions!' &&
+sleep 5 &&
 chmod +x config.sh &&
 ./config.sh &&
 sleep 2 &&
