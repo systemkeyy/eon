@@ -32,10 +32,10 @@ sudo su
 sudu apt install git -y
 ```
 ```
-git clone https://github.com/systemkeyy/auto_onion
+git clone https://github.com/systemkeyy/eon
 ```
 ```
-cd auto_onion
+cd eon
 ```
 ```
 chmod +x install.sh
