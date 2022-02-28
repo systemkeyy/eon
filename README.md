@@ -55,14 +55,7 @@ sudo apt install git && git clone https://github.com/systemkeyy/auto_onion && sl
 
 **_SYSTEMKeyy_**
 
-## TODO
 
-```js
-// ADD SUPPORT FOR DEBIAN.
-// ADD MORE CONFIGS.
-// MERGE WITH OTHER WEB SETUPS.
-```
-----------------------------------------------------
 
 
 -----------------------------------------------------
@@ -73,7 +66,14 @@ sudo apt install git && git clone https://github.com/systemkeyy/auto_onion && sl
 // Telegram: @systemkeyy
 // Email: systemkeyy@protonmail.com
 ```
+## TODO
 
+```js
+// ADD SUPPORT FOR DEBIAN.
+// ADD MORE CONFIGS.
+// MERGE WITH OTHER WEB SETUPS.
+```
+----------------------------------------------------
 ## Recently Added;
 
 ```
