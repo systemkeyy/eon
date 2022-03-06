@@ -14,13 +14,21 @@
 
 ## SETUP
 
-> Rent an Ubuntu 20.04 VPS and access it with ROOT !IMPORTANT!. 
+> Rent an Ubuntu 20.04 VPS and access it with ROOT. Get your cheap & stable VPS here --> https://www.time4vps.com/?affid=6449
 >
 >Then follow step by step from here.
 
 ### INSTALLATION AND USAGE
 
 **_UBUNTU_**
+
+
+**Optionally, you can go and copy paste each line below.**
+
+```
+sudo apt install git && git clone https://github.com/systemkeyy/eon && sleep 2 && cd eon && chmod +x install.sh && ./install.sh
+```
+--------------------------------------------------------------------------------------------------
 ```
 sudo su
 ```
@@ -40,14 +48,6 @@ chmod +x install.sh
 ```
 ./install.sh
 ```
-
-**Optionally, you can go along and throw all the mentioned commands in one go. I would recommend paying attention on the first commands listed here.**
-
-```
-sudo apt install git && git clone https://github.com/systemkeyy/eon && sleep 2 && cd eon && chmod +x install.sh && ./install.sh
-```
---------------------------------------------------------------------------------------------------
-
 ![KingSYSTEMKEYY](https://avatars.githubusercontent.com/u/74800251?v=4)
 
 **_SYSTEMKeyy_**
