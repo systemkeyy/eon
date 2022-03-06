@@ -2,9 +2,6 @@
 
 **_MOST LIKELY THE MOST USER FRIENDLY ONION BASH SCRIPT_**
 
-**Current Projects:**
-
-**Heavy Encrypted Filehosting --->**[AnonArchive.org / AnonArchive.cc / Anon.codes Clearnet Sites](https://anonarchive.org)
 
 **TESTED ONLY WITH UBUNTU 20.04, CURRENTLY NOT WORKING WITH DEBIAN**
 
